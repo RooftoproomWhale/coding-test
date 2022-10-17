@@ -7,7 +7,7 @@ public class Solution2 {
         long answer = 0;
 
         Arrays.sort(times);
-        long left = 0;
+        long left = times[0];
         long right =  (long) n * times[times.length - 1];
 
         while (left <= right)
